@@ -28,13 +28,6 @@ export default {
 </script>
 
 <style lang="scss">
-.container {
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
 
 h1 {
   font-size: 3rem;

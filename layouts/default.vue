@@ -7,8 +7,8 @@
 <style lang="scss">
 @import url('https://fonts.googleapis.com/css?family=Overlock:400,700|Ubuntu+Mono');
 html {
-  background: black;
-  color: white;
+  background: white;
+  color: black;
   font-family: "Overlock", Arial, sans-serif;
   font-size: 18px;
   box-sizing: border-box;
@@ -17,5 +17,12 @@ html {
 *, *:before, *:after {
   box-sizing: border-box;
   margin: 0;
+}
+.container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 </style>
