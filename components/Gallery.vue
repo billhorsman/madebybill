@@ -24,8 +24,8 @@ figcaption {
   margin: 3rem 0 1rem;
 }
 img {
-  border: 1px solid #eee;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  border: 1px solid #ddd;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
   width: 100%;
 }
 .swatch {

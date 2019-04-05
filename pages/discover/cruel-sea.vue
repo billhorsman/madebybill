@@ -19,7 +19,6 @@
         <figcaption>
           Greyscale intensity of
           <span class="blue-swatch">blue</span>
-          (for <a href="https://en.wikipedia.org/wiki/Risograph">Risograph</a>)
         </figcaption>
         <img src="/images/cruel-sea-blue.png" alt="Blue">
       </figure>
@@ -27,20 +26,22 @@
         <figcaption>
           Greyscale intensity of
           <span class="black-swatch">black</span>
-          (for <a href="https://en.wikipedia.org/wiki/Risograph">Risograph</a>)
         </figcaption>
         <img src="/images/cruel-sea-black.png" alt="Black">
       </figure>
+      <RisoImage src="/images/blank.png"></RisoImage>
     </Gallery>
   </section>
 </template>
 
 <script>
 import Gallery from "../../components/Gallery";
+import RisoImage from "../../components/RisoImage";
 
 export default {
   components: {
-    Gallery
+    Gallery,
+    RisoImage
   },
   head: {
     title: 'Cruel Sea by Bill Horsman'
