@@ -31,8 +31,10 @@ img {
 .swatch {
   color: white;
   display: inline-block;
-  margin-right: 0.5rem;
-  padding: 0 0.2rem;
+  margin: 0 0.25rem;
+  padding: 0 0.3rem;
+  text-transform: uppercase;
+  transform: rotate(-10deg);
 }
 .grey-swatch {
   @extend .swatch;
