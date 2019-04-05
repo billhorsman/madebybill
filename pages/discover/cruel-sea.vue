@@ -17,13 +17,17 @@
       </figure>
       <figure>
         <figcaption>
-          Greyscale intensity of <strong>blue</strong> (for <a href="https://en.wikipedia.org/wiki/Risograph">Risograph</a>)
+          Greyscale intensity of
+          <span class="blue-swatch">blue</span>
+          (for <a href="https://en.wikipedia.org/wiki/Risograph">Risograph</a>)
         </figcaption>
         <img src="/images/cruel-sea-blue.png" alt="Blue">
       </figure>
       <figure>
         <figcaption>
-          Greyscale intensity of <strong>black</strong> (for <a href="https://en.wikipedia.org/wiki/Risograph">Risograph</a>)
+          Greyscale intensity of
+          <span class="black-swatch">black</span>
+          (for <a href="https://en.wikipedia.org/wiki/Risograph">Risograph</a>)
         </figcaption>
         <img src="/images/cruel-sea-black.png" alt="Black">
       </figure>
@@ -64,5 +68,20 @@ img {
   border: 1px solid #eee;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
   width: 100%;
+}
+.swatch {
+  display: inline-block;
+  margin-right: 0.5rem;
+  padding: 0 0.2rem;
+}
+.black-swatch {
+  background: #0C0A07;
+  color: white;
+  @extend .swatch;
+}
+.blue-swatch {
+  background: #3B425E;
+  color: white;
+  @extend .swatch;
 }
 </style>
