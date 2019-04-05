@@ -1,6 +1,6 @@
 <template>
   <section class="container">
-    <article class="gallery">
+    <Gallery>
       <h1>Lonely Whale</h1>
       <p>by Bill Horsman, 2019</p>
       <figure>
@@ -31,13 +31,17 @@
         </figcaption>
         <img src="/images/lonely-whale-black.png" alt="Black">
       </figure>
-    </article>
+    </Gallery>
   </section>
 </template>
 
 <script>
+import Gallery from "../../components/Gallery";
 
 export default {
+  components: {
+    Gallery
+  },
   head: {
     title: 'Lonely Whale by Bill Horsman'
   },
@@ -49,39 +53,3 @@ export default {
   ]
 }
 </script>
-
-<style lang="scss">
-article {
-  margin: 3rem;
-}
-h1, p {
-  text-align: left;
-}
-figure {
-  margin: auto;
-  width: 70%;
-}
-figcaption {
-  margin: 3rem 0 1rem;
-}
-img {
-  border: 1px solid #eee;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-  width: 100%;
-}
-.swatch {
-  display: inline-block;
-  margin-right: 0.5rem;
-  padding: 0 0.2rem;
-}
-.black-swatch {
-  background: #0C0A07;
-  color: white;
-  @extend .swatch;
-}
-.blue-swatch {
-  background: #3B425E;
-  color: white;
-  @extend .swatch;
-}
-</style>
