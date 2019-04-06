@@ -29,7 +29,7 @@
         </figcaption>
         <img src="/images/cruel-sea-black.png" alt="Black">
       </figure>
-      <RisoImage src="/images/blank.png"></RisoImage>
+      <RisoImage src="/images/cruel-sea-printed.png"></RisoImage>
     </Gallery>
   </section>
 </template>

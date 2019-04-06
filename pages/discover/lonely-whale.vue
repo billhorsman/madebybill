@@ -29,7 +29,7 @@
         </figcaption>
         <img src="/images/lonely-whale-black.png" alt="Black">
       </figure>
-      <RisoImage src="/images/blank.png"></RisoImage>
+      <RisoImage src="/images/lonely-whale-printed.png"></RisoImage>
     </Gallery>
   </section>
 </template>
