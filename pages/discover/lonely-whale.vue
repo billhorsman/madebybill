@@ -30,12 +30,6 @@
         <img src="/images/lonely-whale-black.png" alt="Black">
       </figure>
       <RisoImage src="/images/lonely-whale-printed.png"></RisoImage>
-      <figure>
-        <figcaption>
-          Animated
-        </figcaption>
-        <img src="/images/lonely-whale.gif" alt="Black">
-      </figure>
     </Gallery>
   </section>
 </template>
