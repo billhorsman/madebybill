@@ -1,0 +1,59 @@
+<template>
+  <section class="container">
+    <article>
+      <h1>Discover</h1>
+      <figure>
+        <figcaption>
+          <a href="/discover/cruel-sea">Cruel Sea</a>
+        </figcaption>
+        <a href="/discover/cruel-sea">
+          <img src="/images/cruel-sea.gif" alt="Cruel Sea">
+        </a>
+      </figure>
+      <figure>
+        <figcaption>
+          <a href="/discover/lonely-whale">Lonely Whale</a>
+        </figcaption>
+        <a href="/discover/lonely-whale">
+          <img src="/images/lonely-whale.gif" alt="Lonely Whale">
+        </a>
+      </figure>
+    </article>
+  </section>
+</template>
+
+<script>
+
+export default {
+  head: {
+    title: 'Discover Art by Bill Horsman'
+  },
+  meta: [
+    { hid: 'description', name: 'description', content: 'Ink then Photoshop' },
+    { property: 'og:title', content: 'Lonely Whale by Bill' },
+    { property: 'og:description', content: 'Ink then Photoshop' },
+    { property: 'og:url', content: 'https://www.madebybill.co.uk/discover/lonely-whale' },
+  ]
+}
+</script>
+
+<style lang="scss" scoped>
+article {
+  margin: 3rem;
+}
+h1, p {
+  text-align: left;
+}
+figure {
+  margin: auto;
+}
+figcaption {
+  margin: 3rem 0 1rem;
+}
+img {
+  border: 1px solid #ddd;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  width: 100%;
+}
+</style>
