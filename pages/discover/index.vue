@@ -1,7 +1,8 @@
 <template>
   <section class="container">
     <article>
-      <h1>Discover</h1>
+      <h1>Art by Bill Horsman</h1>
+      <p>This is an experiment.</p>
       <figure>
         <figcaption>
           <a href="/discover/cruel-sea">Cruel Sea</a>
@@ -29,10 +30,10 @@ export default {
     title: 'Discover Art by Bill Horsman'
   },
   meta: [
-    { hid: 'description', name: 'description', content: 'Ink then Photoshop' },
-    { property: 'og:title', content: 'Lonely Whale by Bill' },
-    { property: 'og:description', content: 'Ink then Photoshop' },
-    { property: 'og:url', content: 'https://www.madebybill.co.uk/discover/lonely-whale' },
+    { hid: 'description', name: 'description', content: 'This is an experiment' },
+    { property: 'og:title', content: 'Discover Art by Bill Horsman' },
+    { property: 'og:description', content: 'This is an experiment' },
+    { property: 'og:url', content: 'https://www.madebybill.co.uk/discover' },
   ]
 }
 </script>
