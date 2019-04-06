@@ -16,6 +16,26 @@ article {
 h1, p {
   text-align: left;
 }
+a.discover {
+  text-decoration: none;
+  i {
+    color: black;
+    font-size: 1.5rem;
+    opacity: 0.5;
+    vertical-align: sub;
+  }
+  span {
+    display: inlinline-block;
+    margin-left: 0.25rem;
+    text-decoration: underline;
+  }
+  &:hover {
+    i {
+      color: red;
+      opacity: 1;
+    }
+  }
+}
 figure {
   margin: auto;
   width: 70%;

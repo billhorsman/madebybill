@@ -3,6 +3,12 @@
     <Gallery>
       <h1>Lonely Whale</h1>
       <p>by Bill Horsman, 2019</p>
+      <p>
+        <a class="discover" href="/discover">
+          <i class="fas fa-long-arrow-alt-left"></i>
+          <span>Other Art</span>
+        </a>
+      </p>
       <figure>
         <figcaption>
           Original ink on paper drawing

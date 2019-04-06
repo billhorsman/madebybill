@@ -25,4 +25,13 @@ html {
   align-items: center;
   text-align: center;
 }
+a {
+  color: blue;
+  &:visited {
+    color: blue;
+  }
+  &:hover {
+    color: red;
+  }
+}
 </style>
