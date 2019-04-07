@@ -13,6 +13,17 @@ export default {
 article {
   margin: 3rem;
 }
+header {
+  display: grid;
+  grid-template-columns: 1fr 100px;
+  nav {
+    text-align: left;
+  }
+  img {
+    height: 100px;
+    width: 100px;
+  }
+}
 h1, p {
   text-align: left;
 }
@@ -39,14 +50,14 @@ a.discover {
 figure {
   margin: auto;
   width: 70%;
+  img {
+    border: 1px solid #ddd;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    width: 100%;
+  }
 }
 figcaption {
   margin: 3rem 0 1rem;
-}
-img {
-  border: 1px solid #ddd;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-  width: 100%;
 }
 .swatch {
   color: white;

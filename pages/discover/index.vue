@@ -8,7 +8,7 @@
           <a href="/discover/cruel-sea">Cruel Sea</a>
         </figcaption>
         <a href="/discover/cruel-sea">
-          <img src="/images/cruel-sea.gif" alt="Cruel Sea">
+          <img src="/images/cruel-sea-printed.png" alt="Cruel Sea">
         </a>
       </figure>
       <figure>
@@ -16,7 +16,7 @@
           <a href="/discover/lonely-whale">Lonely Whale</a>
         </figcaption>
         <a href="/discover/lonely-whale">
-          <img src="/images/lonely-whale.gif" alt="Lonely Whale">
+          <img src="/images/lonely-whale-printed.png" alt="Lonely Whale">
         </a>
       </figure>
     </article>

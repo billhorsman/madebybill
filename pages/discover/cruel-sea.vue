@@ -1,14 +1,17 @@
 <template>
   <section class="container">
     <Gallery>
-      <h1>Cruel Sea</h1>
-      <p>by Bill Horsman, 2019</p>
-      <p>
-        <a class="discover" href="/discover">
-          <i class="fas fa-long-arrow-alt-left"></i>
-          <span>Other Art</span>
-        </a>
-      </p>
+      <header>
+        <nav>
+          <h1>Cruel Sea</h1>
+          <p>by Bill Horsman, 2019</p>
+          <a class="discover" href="/discover">
+            <i class="fas fa-long-arrow-alt-left"></i>
+            <span>Other Art</span>
+          </a>
+        </nav>
+        <img src="/images/cruel-sea.gif" alt="Cruel Sea">
+      </header>
       <figure>
         <figcaption>
           Original ink on paper drawing
@@ -23,14 +26,14 @@
       </figure>
       <figure>
         <figcaption>
-          Greyscale intensity of
+          Greyscale
           <span class="blue-swatch">blue</span>
         </figcaption>
         <img src="/images/cruel-sea-blue.png" alt="Blue">
       </figure>
       <figure>
         <figcaption>
-          Greyscale intensity of
+          Greyscale
           <span class="black-swatch">black</span>
         </figcaption>
         <img src="/images/cruel-sea-black.png" alt="Black">
