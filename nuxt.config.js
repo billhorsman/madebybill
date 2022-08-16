@@ -10,9 +10,9 @@ module.exports = {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Print and Ink are by Bill Horsman' },
+      { hid: 'description', name: 'description', content: 'Print and Ink art by Bill Horsman' },
       { property: 'og:title', content: 'Made by Bill' },
-      { property: 'og:description', content: 'Print and Ink are by Bill Horsman' },
+      { property: 'og:description', content: 'Print and Ink art by Bill Horsman' },
       { property: 'og:url', content: 'https://www.madebybill.co.uk/' },
       { property: 'og:type', content: 'website' }
     ],
